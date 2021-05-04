@@ -1,0 +1,9 @@
+Lojas : 0 a 10
+conta : nao pode ser menor que 0 
+digito : 1 2 ou 3 
+nome: nao pode ser vazio
+
+SENHAS: 
+digito 1 = "recife"
+digito 2 = "manaus"
+digito 3 = "fortaleza"

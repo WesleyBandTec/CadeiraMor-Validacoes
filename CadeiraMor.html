@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADEIRAMOR</title>
+    <link rel="stylesheet" href="CadeiraMor.css">
+    <script src="CadeiraMor.js"></script>
+</head>
+
+<body>
+    <div id="topo">
+        CadeiraMor
+    </div>
+    <div id="login">
+        <h1>Bem vindo á CadeiraMor!!!</h1>
+        <h3>Faça seu Login:</h3>
+        <input type="text" id="ipt_nome" placeholder=" Nome"> <br>
+        <input type="text" id="ipt_loja" placeholder=" Loja"> <br>
+        <input type="text" id="ipt_conta" placeholder=" Conta"> <br>
+        <input type="text" id="ipt_digito" placeholder=" Digito"> <br>
+        <button onclick="bt_conferir()">Conferir</button>
+    </div>
+    <div>
+
+    </div>
+    <div id="div_conta" style="display: none;">
+        <h3 id="msg_conta"></h3>
+        <h3>Insira sua Senha:</h3>
+        <input type="password" id="ipt_password"> <br>
+        <button onclick="bt_limpar()">Limpar</button>
+        <button onclick="bt_entrar()">Entrar</button> <br>
+        <span id="span_tentativas"></span>
+    </div>
+    <div id="produto1" style="display: none;">
+        <select id="sel_cadeira" onchange="cadeira()">
+            <option value="0">Selecione uma Cadeira</option>
+            <option value="1">Cadeira de Praia</option>
+            <option value="2">Cadeira de Jardim</option>
+        </select><br>
+
+        <div id="imagem">
+        </div>
+    </div>
+</body>
+
+</html>

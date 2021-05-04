@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #ff7979;
+    font-size: 22px;
+}
+#topo{
+    background-color: #7ed6df;
+    font-size: 28px;
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+input{
+    border-radius: 15px;
+    margin-bottom: 8px;
+    outline-width: 0;
+    text-align: center;
+}
+button{
+    border-radius: 15px;
+    border: none;
+}
+select{
+    border-radius: 15px;
+    outline-width: 0;
+    margin-bottom: 8px;
+}
